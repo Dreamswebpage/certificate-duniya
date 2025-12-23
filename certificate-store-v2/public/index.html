@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CertifyHub – Free & Paid Certificates</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Best Free & Paid Certificates for Students. Verified learning platforms only.">
+  <meta name="keywords" content="free certificates, paid certificates, student certificates">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<!-- ================= Custom Cursor ================= -->
+<div class="cursor"></div>
+
+<!-- ================= Navbar ================= -->
+<header class="navbar">
+  <h2 class="logo">Certify<span>Hub</span></h2>
+  <nav>
+    <a href="/free-certificates.html">Free</a>
+    <a href="/paid-certificates.html">Paid</a>
+    <a href="/about.html">About</a>
+  </nav>
+</header>
+
+<!-- ================= Hero Section ================= -->
+<section class="hero">
+  <h1 class="fade-in">Learn • Earn • Certify</h1>
+  <p class="fade-in delay-1">
+    Best Free & Paid Certificates for Students
+  </p>
+  <a href="/free-certificates.html" class="btn fade-in delay-2">
+    Explore Certificates
+  </a>
+</section>
+
+<!-- ================= Certificates Preview ================= -->
+<section class="container">
+  <h2 class="section-title">Latest Certificates</h2>
+  <div id="certList" class="grid">
+    <!-- Cards will load here from API -->
+  </div>
+</section>
+
+<!-- ================= Footer ================= -->
+<footer class="footer">
+  © 2025 CertifyHub • Educational Purpose Only
+</footer>
+
+<!-- ================= Scripts ================= -->
+<script src="/js/main.js"></script>
+
+<script>
+/* ================= Custom Cursor Script ================= */
+const cursor = document.querySelector(".cursor");
+document.addEventListener("mousemove", e => {
+  cursor.style.left = e.clientX + "px";
+  cursor.style.top = e.clientY + "px";
+});
+</script>
+
+</body>
+</html>

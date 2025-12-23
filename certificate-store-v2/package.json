@@ -1,0 +1,13 @@
+{
+  "name": "certificate-store-v2",
+  "version": "1.0.0",
+  "description": "Certificate Store with Admin Panel, JWT & Neon DB",
+  "scripts": {
+    "build": "echo \"No build step required\""
+  },
+  "dependencies": {
+    "pg": "^8.11.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
