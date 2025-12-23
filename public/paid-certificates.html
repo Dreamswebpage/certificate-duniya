@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Paid Certificates</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <h2>CertificateStore</h2>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/free-certificates.html">Free</a>
+    <a href="/about.html">About</a>
+  </nav>
+</header>
+
+<section class="page-hero paid">
+  <h1>💎 Paid Certificates</h1>
+  <p>Premium certificates from top platforms</p>
+</section>
+
+<section class="container">
+  <div id="certList" class="grid"></div>
+</section>
+
+<script src="/js/api.js"></script>
+<script>
+  loadCertificates("Paid");
+</script>
+
+</body>
+</html>
