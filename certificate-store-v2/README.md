@@ -1,1 +1,0 @@
-# Certificate Store v2\nAdvanced Netlify + JWT Project
